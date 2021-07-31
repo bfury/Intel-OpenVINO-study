@@ -1,6 +1,4 @@
-
 import cv2 as cv
-import openvino
 
 # Load the model
 net = cv.dnn.readNet('face-detection-adas-0001.xml', 'face-detection-adas-0001.bin')
