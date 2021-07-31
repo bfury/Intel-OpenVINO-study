@@ -18,3 +18,8 @@ eg:python3 ./exercise-1/face-detection01.py
 此时注意不能通过增加os.system(/路径/setup.sh)的方式来配置环境变量到pycharm进程中
 
 因为子进程配置了环境变量，不会影响父进程, subprocess.call不在子shell中执行～
+
+由于将全部文件（包括图片和视频资源）都上传到仓库了，因此它很大～
+
+如果pull过慢，可以在本地完成IR模型的生成，只下载原始模型(caffe、onnx)，视频和图片也可以使用自己本地的资源代替～
+
