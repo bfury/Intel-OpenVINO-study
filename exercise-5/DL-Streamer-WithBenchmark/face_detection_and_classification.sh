@@ -66,8 +66,8 @@ gvadetect model=$DETECT_MODEL_PATH device=$DEVICE ! queue ! \
 gvaclassify model=$CLASS_MODEL_PATH model-proc=$MODEL2_PROC device=$DEVICE ! queue ! \
 gvaclassify model=$CLASS_MODEL_PATH1 model-proc=$MODEL3_PROC device=$DEVICE ! queue ! \
 gvaclassify model=$CLASS_MODEL_PATH2 model-proc=$MODEL4_PROC device=$DEVICE ! queue ! \
-gvawatermark ! videoconvert ! fpsdisplaysink video-sink=xvimagesink sync=false"
-
+gvafpscounter ! fakesink"
+#gvawatermark ! videoconvert ! fpsdisplaysink video-sink=xvimagesink sync=false"
 
 echo ${PIPELINE}
 ${PIPELINE}
