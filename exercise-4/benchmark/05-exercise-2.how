@@ -1,0 +1,72 @@
+##################################################################
+#
+#       CSDN200, Lesson 5, lab 2
+#
+##################################################################
+
+Target: measure performance of various models with various parameters using the benchmark app.
+
+1) Get the benchmark app.
+
+	#go to the directory
+	cd ~/CSDN200/05/exercise-1/
+	export lab_dir=~/CSDN200/05/exercise-1/
+
+	#Install pre-requisitis
+	cd /opt/intel/openvino/deployment_tools/tools/benchmark_tool
+	pip install -r  requirements.txt
+
+	cp benchmark_app.py $lab_dir
+	cd $lab_dir
+
+
+
+2)  Benchmark the 2 models in models/ (ssd-mobilenet, resnet-50)
+	-Benchmark with no paramters
+
+
+
+
+
+
+
+solution
+--------
+python3 benchmark_app.py -m models/ssd-mobilenet.xml -i images/ -t 20
+python3 benchmark_app.py -m models/resnet-50.xml     -i images/ -t 20
+
+
+3) Check the effect of Synch/Asynch execution on the ssd-mobilenet model
+
+
+
+
+
+
+solution
+--------
+python3 benchmark_app.py -m models/ssd-mobilenet.xml -i images/ -t 20 -api sync
+python3 benchmark_app.py -m models/ssd-mobilenet.xml -i images/ -t 20 -api async
+
+
+4)  Try to benchmark various parameters
+	-look for the effect on Latency AND on Throughput.
+	
+Check for your system specifications:
+(run "lscpu""
+	-nstreams <n>
+	-nireq <n>
+
+	Or any other parameter you would like to try..
+
+
+
+
+
+
+solution
+--------
+python3 benchmark_app.py -m models/ssd-mobilenet.xml -i images/ -t 20  -nstreams 16 -nireq 8 
+
+
+

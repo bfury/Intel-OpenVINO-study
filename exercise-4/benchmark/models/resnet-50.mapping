@@ -1,0 +1,619 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="res4b" out_port_id="res4b"/>
+		<IR id="163" name="res4b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale3c_branch2c" out_port_id="res3c_branch2c"/>
+		<IR id="109" name="bn3c_branch2c/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="fc1000" out_port_id="fc1000"/>
+		<IR id="288" name="fc1000" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3c_branch2b" out_port_id="res3c_branch2b"/>
+		<IR id="102" name="res3c_branch2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4a_branch2b_relu" out_port_id="res4a_branch2b"/>
+		<IR id="142" name="res4a_branch2b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res4a" out_port_id="res4a"/>
+		<IR id="147" name="res4a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3b_branch2a" out_port_id="res3b_branch2a"/>
+		<IR id="81" name="res3b_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4a_relu" out_port_id="res4a"/>
+		<IR id="148" name="res4a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="scale5b_branch2b" out_port_id="res5b_branch2b"/>
+		<IR id="258" name="bn5b_branch2b/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3c" out_port_id="res3c"/>
+		<IR id="110" name="res3c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale5c_branch2b" out_port_id="res5c_branch2b"/>
+		<IR id="274" name="bn5c_branch2b/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4d_branch2a_relu" out_port_id="res4d_branch2a"/>
+		<IR id="185" name="res4d_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res4a_branch2c" out_port_id="res4a_branch2c"/>
+		<IR id="144" name="res4a_branch2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3c_branch2a_relu" out_port_id="res3c_branch2a"/>
+		<IR id="100" name="res3c_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res2b_branch2a_relu" out_port_id="res2b_branch2a"/>
+		<IR id="31" name="res2b_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res4d_branch2c" out_port_id="res4d_branch2c"/>
+		<IR id="192" name="res4d_branch2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res2a_branch2a" out_port_id="res2a_branch2a"/>
+		<IR id="12" name="res2a_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5c_branch2b_relu" out_port_id="res5c_branch2b"/>
+		<IR id="275" name="res5c_branch2b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res4a_branch2a" out_port_id="res4a_branch2a"/>
+		<IR id="134" name="res4a_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res2a_branch1" out_port_id="res2a_branch1"/>
+		<IR id="8" name="res2a_branch1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4c" out_port_id="res4c"/>
+		<IR id="179" name="res4c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5c_relu" out_port_id="res5c"/>
+		<IR id="281" name="res5c_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res5b_branch2a" out_port_id="res5b_branch2a"/>
+		<IR id="251" name="res5b_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3c_branch2c" out_port_id="res3c_branch2c"/>
+		<IR id="107" name="res3c_branch2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale4a_branch2c" out_port_id="res4a_branch2c"/>
+		<IR id="146" name="bn4a_branch2c/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3b_relu" out_port_id="res3b"/>
+		<IR id="95" name="res3b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res4c_relu" out_port_id="res4c"/>
+		<IR id="180" name="res4c_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res5c_branch2a" out_port_id="res5c_branch2a"/>
+		<IR id="267" name="res5c_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5a_branch2a" out_port_id="res5a_branch2a"/>
+		<IR id="235" name="res5a_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale5a_branch2a" out_port_id="res5a_branch2a"/>
+		<IR id="237" name="bn5a_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5a" out_port_id="res5a"/>
+		<IR id="248" name="res5a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4a_branch2a_relu" out_port_id="res4a_branch2a"/>
+		<IR id="137" name="res4a_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="scale_conv1" out_port_id="conv1"/>
+		<IR id="4" name="conv1/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale2a_branch2c" out_port_id="res2a_branch2c"/>
+		<IR id="24" name="bn2a_branch2c/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3d_branch2a" out_port_id="res3d_branch2a"/>
+		<IR id="114" name="res3d_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="prob" out_port_id="0"/>
+		<IR id="289" name="prob" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res4b_branch2a" out_port_id="res4b_branch2a"/>
+		<IR id="150" name="res4b_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5c_branch2a_relu" out_port_id="res5c_branch2a"/>
+		<IR id="270" name="res5c_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="scale4b_branch2b" out_port_id="res4b_branch2b"/>
+		<IR id="157" name="bn4b_branch2b/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5a_branch2a_relu" out_port_id="res5a_branch2a"/>
+		<IR id="238" name="res5a_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="data" out_port_id="data"/>
+		<IR id="0" name="data" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="scale4c_branch2c" out_port_id="res4c_branch2c"/>
+		<IR id="178" name="bn4c_branch2c/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5b_branch2a_relu" out_port_id="res5b_branch2a"/>
+		<IR id="254" name="res5b_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="scale3c_branch2a" out_port_id="res3c_branch2a"/>
+		<IR id="99" name="bn3c_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale3b_branch2a" out_port_id="res3b_branch2a"/>
+		<IR id="83" name="bn3b_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4b_branch2c" out_port_id="res4b_branch2c"/>
+		<IR id="160" name="res4b_branch2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale2b_branch2a" out_port_id="res2b_branch2a"/>
+		<IR id="30" name="bn2b_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4d_relu" out_port_id="res4d"/>
+		<IR id="196" name="res4d_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res2a" out_port_id="res2a"/>
+		<IR id="25" name="res2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5b_relu" out_port_id="res5b"/>
+		<IR id="265" name="res5b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res4a_branch1" out_port_id="res4a_branch1"/>
+		<IR id="130" name="res4a_branch1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5a_relu" out_port_id="res5a"/>
+		<IR id="249" name="res5a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="scale3b_branch2b" out_port_id="res3b_branch2b"/>
+		<IR id="88" name="bn3b_branch2b/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale5b_branch2c" out_port_id="res5b_branch2c"/>
+		<IR id="263" name="bn5b_branch2c/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4c_branch2b_relu" out_port_id="res4c_branch2b"/>
+		<IR id="174" name="res4c_branch2b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res4e_relu" out_port_id="res4e"/>
+		<IR id="212" name="res4e_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res4d_branch2a" out_port_id="res4d_branch2a"/>
+		<IR id="182" name="res4d_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3b_branch2b_relu" out_port_id="res3b_branch2b"/>
+		<IR id="89" name="res3b_branch2b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="scale3a_branch1" out_port_id="res3a_branch1"/>
+		<IR id="63" name="bn3a_branch1/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4e_branch2c" out_port_id="res4e_branch2c"/>
+		<IR id="208" name="res4e_branch2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3a_branch2b" out_port_id="res3a_branch2b"/>
+		<IR id="70" name="res3a_branch2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4d" out_port_id="res4d"/>
+		<IR id="195" name="res4d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3c_branch2b_relu" out_port_id="res3c_branch2b"/>
+		<IR id="105" name="res3c_branch2b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="scale4a_branch2a" out_port_id="res4a_branch2a"/>
+		<IR id="136" name="bn4a_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale4b_branch2a" out_port_id="res4b_branch2a"/>
+		<IR id="152" name="bn4b_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res2b_branch2b" out_port_id="res2b_branch2b"/>
+		<IR id="33" name="res2b_branch2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5b_branch2b" out_port_id="res5b_branch2b"/>
+		<IR id="256" name="res5b_branch2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3a_branch2b_relu" out_port_id="res3a_branch2b"/>
+		<IR id="73" name="res3a_branch2b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res4e_branch2b_relu" out_port_id="res4e_branch2b"/>
+		<IR id="206" name="res4e_branch2b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res3c_relu" out_port_id="res3c"/>
+		<IR id="111" name="res3c_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="scale5a_branch2b" out_port_id="res5a_branch2b"/>
+		<IR id="242" name="bn5a_branch2b/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4c_branch2a_relu" out_port_id="res4c_branch2a"/>
+		<IR id="169" name="res4c_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res2b" out_port_id="res2b"/>
+		<IR id="41" name="res2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale2a_branch1" out_port_id="res2a_branch1"/>
+		<IR id="10" name="bn2a_branch1/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale3d_branch2a" out_port_id="res3d_branch2a"/>
+		<IR id="116" name="bn3d_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5a_branch1" out_port_id="res5a_branch1"/>
+		<IR id="231" name="res5a_branch1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale4b_branch2c" out_port_id="res4b_branch2c"/>
+		<IR id="162" name="bn4b_branch2c/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale4d_branch2a" out_port_id="res4d_branch2a"/>
+		<IR id="184" name="bn4d_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4f_branch2a" out_port_id="res4f_branch2a"/>
+		<IR id="215" name="res4f_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3b_branch2a_relu" out_port_id="res3b_branch2a"/>
+		<IR id="84" name="res3b_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res5a_branch2b" out_port_id="res5a_branch2b"/>
+		<IR id="240" name="res5a_branch2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res2b_branch2b_relu" out_port_id="res2b_branch2b"/>
+		<IR id="36" name="res2b_branch2b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res4e" out_port_id="res4e"/>
+		<IR id="211" name="res4e" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3b_branch2b" out_port_id="res3b_branch2b"/>
+		<IR id="86" name="res3b_branch2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale5a_branch2c" out_port_id="res5a_branch2c"/>
+		<IR id="247" name="bn5a_branch2c/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res2a_branch2c" out_port_id="res2a_branch2c"/>
+		<IR id="22" name="res2a_branch2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5c" out_port_id="res5c"/>
+		<IR id="280" name="res5c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5a_branch2c" out_port_id="res5a_branch2c"/>
+		<IR id="245" name="res5a_branch2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4e_branch2a_relu" out_port_id="res4e_branch2a"/>
+		<IR id="201" name="res4e_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="scale4a_branch2b" out_port_id="res4a_branch2b"/>
+		<IR id="141" name="bn4a_branch2b/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale4d_branch2c" out_port_id="res4d_branch2c"/>
+		<IR id="194" name="bn4d_branch2c/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res2a_branch2b" out_port_id="res2a_branch2b"/>
+		<IR id="17" name="res2a_branch2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3a" out_port_id="res3a"/>
+		<IR id="78" name="res3a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5b_branch2c" out_port_id="res5b_branch2c"/>
+		<IR id="261" name="res5b_branch2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5b" out_port_id="res5b"/>
+		<IR id="264" name="res5b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale3b_branch2c" out_port_id="res3b_branch2c"/>
+		<IR id="93" name="bn3b_branch2c/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale4a_branch1" out_port_id="res4a_branch1"/>
+		<IR id="132" name="bn4a_branch1/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv1_relu" out_port_id="conv1"/>
+		<IR id="5" name="conv1_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="scale5c_branch2a" out_port_id="res5c_branch2a"/>
+		<IR id="269" name="bn5c_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res2a_branch2b_relu" out_port_id="res2a_branch2b"/>
+		<IR id="20" name="res2a_branch2b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res2b_branch2a" out_port_id="res2b_branch2a"/>
+		<IR id="28" name="res2b_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4e_branch2a" out_port_id="res4e_branch2a"/>
+		<IR id="198" name="res4e_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5c_branch2b" out_port_id="res5c_branch2b"/>
+		<IR id="272" name="res5c_branch2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale4c_branch2a" out_port_id="res4c_branch2a"/>
+		<IR id="168" name="bn4c_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale2b_branch2b" out_port_id="res2b_branch2b"/>
+		<IR id="35" name="bn2b_branch2b/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res2c_branch2a" out_port_id="res2c_branch2a"/>
+		<IR id="45" name="res2c_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4a_branch2b" out_port_id="res4a_branch2b"/>
+		<IR id="139" name="res4a_branch2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4b_branch2b" out_port_id="res4b_branch2b"/>
+		<IR id="155" name="res4b_branch2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale4e_branch2a" out_port_id="res4e_branch2a"/>
+		<IR id="200" name="bn4e_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale3c_branch2b" out_port_id="res3c_branch2b"/>
+		<IR id="104" name="bn3c_branch2b/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3a_branch2a" out_port_id="res3a_branch2a"/>
+		<IR id="65" name="res3a_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res2b_branch2c" out_port_id="res2b_branch2c"/>
+		<IR id="38" name="res2b_branch2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="pool1" out_port_id="pool1"/>
+		<IR id="6" name="pool1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res3a_branch1" out_port_id="res3a_branch1"/>
+		<IR id="61" name="res3a_branch1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3a_branch2c" out_port_id="res3a_branch2c"/>
+		<IR id="75" name="res3a_branch2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="pool5" out_port_id="pool5"/>
+		<IR id="284" name="fc1000/flatten_fc_input" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale4d_branch2b" out_port_id="res4d_branch2b"/>
+		<IR id="189" name="bn4d_branch2b/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4d_branch2b_relu" out_port_id="res4d_branch2b"/>
+		<IR id="190" name="res4d_branch2b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="scale3a_branch2c" out_port_id="res3a_branch2c"/>
+		<IR id="77" name="bn3a_branch2c/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4b_branch2a_relu" out_port_id="res4b_branch2a"/>
+		<IR id="153" name="res4b_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res4c_branch2c" out_port_id="res4c_branch2c"/>
+		<IR id="176" name="res4c_branch2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3d_branch2a_relu" out_port_id="res3d_branch2a"/>
+		<IR id="117" name="res3d_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res5b_branch2b_relu" out_port_id="res5b_branch2b"/>
+		<IR id="259" name="res5b_branch2b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="scale4e_branch2c" out_port_id="res4e_branch2c"/>
+		<IR id="210" name="bn4e_branch2c/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale4e_branch2b" out_port_id="res4e_branch2b"/>
+		<IR id="205" name="bn4e_branch2b/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale2b_branch2c" out_port_id="res2b_branch2c"/>
+		<IR id="40" name="bn2b_branch2c/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4d_branch2b" out_port_id="res4d_branch2b"/>
+		<IR id="187" name="res4d_branch2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale2c_branch2a" out_port_id="res2c_branch2a"/>
+		<IR id="47" name="bn2c_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale5c_branch2c" out_port_id="res5c_branch2c"/>
+		<IR id="279" name="bn5c_branch2c/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4c_branch2b" out_port_id="res4c_branch2b"/>
+		<IR id="171" name="res4c_branch2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3b_branch2c" out_port_id="res3b_branch2c"/>
+		<IR id="91" name="res3b_branch2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4e_branch2b" out_port_id="res4e_branch2b"/>
+		<IR id="203" name="res4e_branch2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3b" out_port_id="res3b"/>
+		<IR id="94" name="res3b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale4c_branch2b" out_port_id="res4c_branch2b"/>
+		<IR id="173" name="bn4c_branch2b/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale5a_branch1" out_port_id="res5a_branch1"/>
+		<IR id="233" name="bn5a_branch1/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale3a_branch2b" out_port_id="res3a_branch2b"/>
+		<IR id="72" name="bn3a_branch2b/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale3a_branch2a" out_port_id="res3a_branch2a"/>
+		<IR id="67" name="bn3a_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res2a_relu" out_port_id="res2a"/>
+		<IR id="26" name="res2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res5c_branch2c" out_port_id="res5c_branch2c"/>
+		<IR id="277" name="res5c_branch2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4f_branch2a_relu" out_port_id="res4f_branch2a"/>
+		<IR id="218" name="res4f_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res2c_branch2a_relu" out_port_id="res2c_branch2a"/>
+		<IR id="48" name="res2c_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res3a_relu" out_port_id="res3a"/>
+		<IR id="79" name="res3a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res3c_branch2a" out_port_id="res3c_branch2a"/>
+		<IR id="97" name="res3c_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res3a_branch2a_relu" out_port_id="res3a_branch2a"/>
+		<IR id="68" name="res3a_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res4b_branch2b_relu" out_port_id="res4b_branch2b"/>
+		<IR id="158" name="res4b_branch2b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="scale2a_branch2a" out_port_id="res2a_branch2a"/>
+		<IR id="14" name="bn2a_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="scale4f_branch2a" out_port_id="res4f_branch2a"/>
+		<IR id="217" name="bn4f_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4c_branch2a" out_port_id="res4c_branch2a"/>
+		<IR id="166" name="res4c_branch2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res2a_branch2a_relu" out_port_id="res2a_branch2a"/>
+		<IR id="15" name="res2a_branch2a_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="scale5b_branch2a" out_port_id="res5b_branch2a"/>
+		<IR id="253" name="bn5b_branch2a/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4b_relu" out_port_id="res4b"/>
+		<IR id="164" name="res4b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res2b_relu" out_port_id="res2b"/>
+		<IR id="42" name="res2b_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="scale2a_branch2b" out_port_id="res2a_branch2b"/>
+		<IR id="19" name="bn2a_branch2b/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res5a_branch2b_relu" out_port_id="res5a_branch2b"/>
+		<IR id="243" name="res5a_branch2b_relu" out_port_id="1"/>
+	</map>
+</mapping>
