@@ -27,7 +27,9 @@ eg:python3 ./exercise-1/face-detection01.py
 
 此时注意不能通过增加os.system(/路径/setup.sh)的方式来配置环境变量到pycharm进程中
 
-因为子进程配置了环境变量，不会影响父进程, subprocess.call不在子shell中执行～
+因为子进程配置了环境变量，不会影响父进程。可以用subprocess.call，因为经测试subprocess不在子shell中执行～
+
+还是比较麻烦（懒惰.jpg） 于是索性就都在Terminal中测试运行了
 
 由于将全部文件（包括图片和视频资源）都上传到仓库了，因此它很大～
 
