@@ -1,13 +1,15 @@
+# Author:bfury
+# since:31/7/2021
 import cv2 as cv
 
 # Load the model
-net = cv.dnn.readNet('face-detection-adas-0001.xml', 'face-detection-adas-0001.bin')
+net = cv.dnn.readNet('../IRmodel/face-detection-adas-0001.xml', '../IRmodel/face-detection-adas-0001.bin')
 
 # Specify target device (CPU)
 net.setPreferableTarget(cv.dnn.DNN_TARGET_CPU)
 
 # Read an image
-frame = cv.imread('faces.jpeg')
+frame = cv.imread('../sources/faces.jpeg')
 
 # Prepare input blob 
 blob = cv.dnn.blobFromImage(frame, size=(672, 384), ddepth=cv.CV_8U)
@@ -30,7 +32,7 @@ for detection in out.reshape(-1, 7):
         cv.rectangle(frame, (xmin, ymin), (xmax, ymax), color=(0, 255, 0))
 
 # Save the frame to an image file
-cv.imwrite('out1.png', frame)
+cv.imwrite('./result/out1.png', frame)
 
 for detection in out.reshape(-1, 7):
 
@@ -45,4 +47,4 @@ for detection in out.reshape(-1, 7):
         cv.rectangle(frame, (xmin, ymin), (xmax, ymax), color=(0, 255, 0))
 
 # Save the frame to an image file
-cv.imwrite('out2.png', frame)
+cv.imwrite('./result/out2.png', frame)
