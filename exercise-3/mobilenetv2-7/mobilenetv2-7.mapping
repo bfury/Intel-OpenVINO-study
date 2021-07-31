@@ -1,0 +1,843 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck3_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck3_conv0_fwd"/>
+		<IR id="54" name="mobilenetv20_features_linearbottleneck3_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck16_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck16_conv1_fwd"/>
+		<IR id="250" name="mobilenetv20_features_linearbottleneck16_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck10_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck10_conv0_weight"/>
+		<IR id="156" name="mobilenetv20_features_linearbottleneck10_batchnorm0_fwd/mean/Fused_Mul_1004810050_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck6_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck6_relu1_fwd"/>
+		<IR id="106" name="mobilenetv20_features_linearbottleneck6_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck0_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck0_batchnorm2_fwd"/>
+		<IR id="23" name="mobilenetv20_features_linearbottleneck0_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck2_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck2_conv1_fwd"/>
+		<IR id="44" name="mobilenetv20_features_linearbottleneck2_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck14_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck14_conv1_fwd"/>
+		<IR id="220" name="mobilenetv20_features_linearbottleneck14_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck8_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck8_conv2_weight"/>
+		<IR id="136" name="mobilenetv20_features_linearbottleneck8_batchnorm2_fwd/mean/Fused_Mul_1003210034_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck4_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck4_conv1_weight"/>
+		<IR id="72" name="1409214095_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck2_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck2_batchnorm2_fwd"/>
+		<IR id="51" name="mobilenetv20_features_linearbottleneck2_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck10_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck10_batchnorm0_fwd"/>
+		<IR id="159" name="mobilenetv20_features_linearbottleneck10_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck1_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck1_conv1_fwd"/>
+		<IR id="30" name="mobilenetv20_features_linearbottleneck1_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck6_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck6_relu0_fwd"/>
+		<IR id="101" name="mobilenetv20_features_linearbottleneck6_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck3_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck3_relu0_fwd"/>
+		<IR id="57" name="mobilenetv20_features_linearbottleneck3_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck8_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck8_relu1_fwd"/>
+		<IR id="135" name="mobilenetv20_features_linearbottleneck8_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck15_elemwise_add0" out_port_id="mobilenetv20_features_linearbottleneck15_elemwise_add0"/>
+		<IR id="243" name="mobilenetv20_features_linearbottleneck15_elemwise_add0" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck7_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck7_batchnorm2_fwd"/>
+		<IR id="124" name="mobilenetv20_features_linearbottleneck7_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck14_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck14_conv2_fwd"/>
+		<IR id="225" name="mobilenetv20_features_linearbottleneck14_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck0_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck0_batchnorm1_fwd"/>
+		<IR id="18" name="mobilenetv20_features_linearbottleneck0_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck8_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck8_batchnorm2_fwd"/>
+		<IR id="139" name="mobilenetv20_features_linearbottleneck8_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck3_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck3_conv2_fwd"/>
+		<IR id="64" name="mobilenetv20_features_linearbottleneck3_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck8_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck8_conv1_fwd"/>
+		<IR id="132" name="mobilenetv20_features_linearbottleneck8_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck6_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck6_conv0_fwd"/>
+		<IR id="98" name="mobilenetv20_features_linearbottleneck6_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck16_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck16_conv2_weight"/>
+		<IR id="254" name="mobilenetv20_features_linearbottleneck16_batchnorm2_fwd/mean/Fused_Mul_1012810130_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck12_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck12_conv1_weight"/>
+		<IR id="190" name="1411214115_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck3_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck3_conv0_weight"/>
+		<IR id="53" name="mobilenetv20_features_linearbottleneck3_batchnorm0_fwd/mean/Fused_Mul_99649966_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck14_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck14_batchnorm1_fwd"/>
+		<IR id="222" name="mobilenetv20_features_linearbottleneck14_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck4_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck4_conv2_weight"/>
+		<IR id="77" name="mobilenetv20_features_linearbottleneck4_batchnorm2_fwd/mean/Fused_Mul_99849986_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck0_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck0_relu1_fwd"/>
+		<IR id="19" name="mobilenetv20_features_linearbottleneck0_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck8_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck8_conv0_fwd"/>
+		<IR id="127" name="mobilenetv20_features_linearbottleneck8_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck0_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck0_conv0_fwd"/>
+		<IR id="11" name="mobilenetv20_features_linearbottleneck0_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_relu0_fwd" out_port_id="mobilenetv20_features_relu0_fwd"/>
+		<IR id="9" name="mobilenetv20_features_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_conv1_fwd" out_port_id="mobilenetv20_features_conv1_fwd"/>
+		<IR id="259" name="mobilenetv20_features_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck1_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck1_conv0_weight"/>
+		<IR id="24" name="mobilenetv20_features_linearbottleneck1_batchnorm0_fwd/mean/Fused_Mul_99409942_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck5_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck5_batchnorm1_fwd"/>
+		<IR id="90" name="mobilenetv20_features_linearbottleneck5_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck1_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck1_conv1_weight"/>
+		<IR id="29" name="1412814131_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck0_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck0_conv2_weight"/>
+		<IR id="20" name="mobilenetv20_features_linearbottleneck0_batchnorm2_fwd/mean/Fused_Mul_99369938_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck5_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck5_conv2_fwd"/>
+		<IR id="93" name="mobilenetv20_features_linearbottleneck5_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck1_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck1_batchnorm0_fwd"/>
+		<IR id="27" name="mobilenetv20_features_linearbottleneck1_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck10_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck10_batchnorm1_fwd"/>
+		<IR id="164" name="mobilenetv20_features_linearbottleneck10_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck12_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck12_conv2_weight"/>
+		<IR id="195" name="mobilenetv20_features_linearbottleneck12_batchnorm2_fwd/mean/Fused_Mul_1008010082_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck2_elemwise_add0" out_port_id="mobilenetv20_features_linearbottleneck2_elemwise_add0"/>
+		<IR id="52" name="mobilenetv20_features_linearbottleneck2_elemwise_add0" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck14_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck14_conv0_fwd"/>
+		<IR id="215" name="mobilenetv20_features_linearbottleneck14_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck6_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck6_batchnorm2_fwd"/>
+		<IR id="110" name="mobilenetv20_features_linearbottleneck6_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck16_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck16_relu0_fwd"/>
+		<IR id="248" name="mobilenetv20_features_linearbottleneck16_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck5_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck5_conv0_fwd"/>
+		<IR id="83" name="mobilenetv20_features_linearbottleneck5_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck13_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck13_batchnorm1_fwd"/>
+		<IR id="208" name="mobilenetv20_features_linearbottleneck13_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck10_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck10_conv1_fwd"/>
+		<IR id="162" name="mobilenetv20_features_linearbottleneck10_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck14_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck14_batchnorm0_fwd"/>
+		<IR id="217" name="mobilenetv20_features_linearbottleneck14_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck2_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck2_batchnorm1_fwd"/>
+		<IR id="46" name="mobilenetv20_features_linearbottleneck2_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck3_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck3_batchnorm2_fwd"/>
+		<IR id="66" name="mobilenetv20_features_linearbottleneck3_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck16_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck16_conv2_fwd"/>
+		<IR id="255" name="mobilenetv20_features_linearbottleneck16_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck0_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck0_relu0_fwd"/>
+		<IR id="14" name="mobilenetv20_features_linearbottleneck0_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_output_pred_fwd" out_port_id="mobilenetv20_output_pred_fwd"/>
+		<IR id="266" name="mobilenetv20_output_pred_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck15_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck15_conv2_fwd"/>
+		<IR id="240" name="mobilenetv20_features_linearbottleneck15_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck11_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck11_conv0_weight"/>
+		<IR id="170" name="mobilenetv20_features_linearbottleneck11_batchnorm0_fwd/mean/Fused_Mul_1006010062_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck13_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck13_conv0_weight"/>
+		<IR id="200" name="mobilenetv20_features_linearbottleneck13_batchnorm0_fwd/mean/Fused_Mul_1008410086_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck11_elemwise_add0" out_port_id="mobilenetv20_features_linearbottleneck11_elemwise_add0"/>
+		<IR id="184" name="mobilenetv20_features_linearbottleneck11_elemwise_add0" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck7_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck7_batchnorm0_fwd"/>
+		<IR id="114" name="mobilenetv20_features_linearbottleneck7_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck10_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck10_relu1_fwd"/>
+		<IR id="165" name="mobilenetv20_features_linearbottleneck10_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck14_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck14_batchnorm2_fwd"/>
+		<IR id="227" name="mobilenetv20_features_linearbottleneck14_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck5_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck5_batchnorm0_fwd"/>
+		<IR id="85" name="mobilenetv20_features_linearbottleneck5_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck1_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck1_relu0_fwd"/>
+		<IR id="28" name="mobilenetv20_features_linearbottleneck1_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck15_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck15_conv2_weight"/>
+		<IR id="239" name="mobilenetv20_features_linearbottleneck15_batchnorm2_fwd/mean/Fused_Mul_1011610118_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck9_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck9_relu1_fwd"/>
+		<IR id="150" name="mobilenetv20_features_linearbottleneck9_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck7_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck7_conv1_fwd"/>
+		<IR id="117" name="mobilenetv20_features_linearbottleneck7_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck6_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck6_conv2_fwd"/>
+		<IR id="108" name="mobilenetv20_features_linearbottleneck6_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck6_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck6_batchnorm0_fwd"/>
+		<IR id="100" name="mobilenetv20_features_linearbottleneck6_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck5_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck5_conv0_weight"/>
+		<IR id="82" name="mobilenetv20_features_linearbottleneck5_batchnorm0_fwd/mean/Fused_Mul_99889990_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck2_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck2_relu1_fwd"/>
+		<IR id="47" name="mobilenetv20_features_linearbottleneck2_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck15_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck15_conv0_weight"/>
+		<IR id="229" name="mobilenetv20_features_linearbottleneck15_batchnorm0_fwd/mean/Fused_Mul_1010810110_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="reshape_attr_tensor421" out_port_id="reshape_attr_tensor421"/>
+		<IR id="267" name="mobilenetv20_output_flatten0_reshape0/Cast_114377_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_pool0_fwd" out_port_id="mobilenetv20_features_pool0_fwd"/>
+		<IR id="264" name="mobilenetv20_features_pool0_fwd/reduce" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck10_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck10_conv2_weight"/>
+		<IR id="166" name="mobilenetv20_features_linearbottleneck10_batchnorm2_fwd/mean/Fused_Mul_1005610058_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck12_elemwise_add0" out_port_id="mobilenetv20_features_linearbottleneck12_elemwise_add0"/>
+		<IR id="199" name="mobilenetv20_features_linearbottleneck12_elemwise_add0" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck12_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck12_conv0_fwd"/>
+		<IR id="186" name="mobilenetv20_features_linearbottleneck12_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck2_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck2_batchnorm0_fwd"/>
+		<IR id="41" name="mobilenetv20_features_linearbottleneck2_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck13_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck13_relu0_fwd"/>
+		<IR id="204" name="mobilenetv20_features_linearbottleneck13_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck4_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck4_batchnorm0_fwd"/>
+		<IR id="70" name="mobilenetv20_features_linearbottleneck4_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck7_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck7_conv0_fwd"/>
+		<IR id="112" name="mobilenetv20_features_linearbottleneck7_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck13_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck13_conv0_fwd"/>
+		<IR id="201" name="mobilenetv20_features_linearbottleneck13_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck11_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck11_conv1_fwd"/>
+		<IR id="176" name="mobilenetv20_features_linearbottleneck11_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck13_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck13_conv1_fwd"/>
+		<IR id="206" name="mobilenetv20_features_linearbottleneck13_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck10_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck10_conv2_fwd"/>
+		<IR id="167" name="mobilenetv20_features_linearbottleneck10_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck12_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck12_conv1_fwd"/>
+		<IR id="191" name="mobilenetv20_features_linearbottleneck12_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck6_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck6_conv1_weight"/>
+		<IR id="102" name="1408414087_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck14_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck14_relu0_fwd"/>
+		<IR id="218" name="mobilenetv20_features_linearbottleneck14_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck6_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck6_batchnorm1_fwd"/>
+		<IR id="105" name="mobilenetv20_features_linearbottleneck6_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck16_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck16_conv0_fwd"/>
+		<IR id="245" name="mobilenetv20_features_linearbottleneck16_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck3_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck3_batchnorm1_fwd"/>
+		<IR id="61" name="mobilenetv20_features_linearbottleneck3_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck5_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck5_relu0_fwd"/>
+		<IR id="86" name="mobilenetv20_features_linearbottleneck5_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck4_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck4_relu1_fwd"/>
+		<IR id="76" name="mobilenetv20_features_linearbottleneck4_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck12_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck12_conv0_weight"/>
+		<IR id="185" name="mobilenetv20_features_linearbottleneck12_batchnorm0_fwd/mean/Fused_Mul_1007210074_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck10_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck10_relu0_fwd"/>
+		<IR id="160" name="mobilenetv20_features_linearbottleneck10_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck2_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck2_conv0_weight"/>
+		<IR id="38" name="mobilenetv20_features_linearbottleneck2_batchnorm0_fwd/mean/Fused_Mul_99529954_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck4_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck4_conv0_weight"/>
+		<IR id="67" name="mobilenetv20_features_linearbottleneck4_batchnorm0_fwd/mean/Fused_Mul_99769978_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck3_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck3_conv2_weight"/>
+		<IR id="63" name="mobilenetv20_features_linearbottleneck3_batchnorm2_fwd/mean/Fused_Mul_99729974_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck1_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck1_conv2_fwd"/>
+		<IR id="35" name="mobilenetv20_features_linearbottleneck1_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="data" out_port_id="data"/>
+		<IR id="4" name="Add_/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck8_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck8_batchnorm0_fwd"/>
+		<IR id="129" name="mobilenetv20_features_linearbottleneck8_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck16_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck16_conv0_weight"/>
+		<IR id="244" name="mobilenetv20_features_linearbottleneck16_batchnorm0_fwd/mean/Fused_Mul_1012010122_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck9_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck9_conv0_weight"/>
+		<IR id="141" name="mobilenetv20_features_linearbottleneck9_batchnorm0_fwd/mean/Fused_Mul_1003610038_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck12_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck12_batchnorm0_fwd"/>
+		<IR id="188" name="mobilenetv20_features_linearbottleneck12_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck13_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck13_conv1_weight"/>
+		<IR id="205" name="1412014123_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck16_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck16_batchnorm2_fwd"/>
+		<IR id="257" name="mobilenetv20_features_linearbottleneck16_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck12_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck12_relu0_fwd"/>
+		<IR id="189" name="mobilenetv20_features_linearbottleneck12_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck13_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck13_conv2_weight"/>
+		<IR id="210" name="mobilenetv20_features_linearbottleneck13_batchnorm2_fwd/mean/Fused_Mul_1009210094_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck4_elemwise_add0" out_port_id="mobilenetv20_features_linearbottleneck4_elemwise_add0"/>
+		<IR id="81" name="mobilenetv20_features_linearbottleneck4_elemwise_add0" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck2_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck2_conv0_fwd"/>
+		<IR id="39" name="mobilenetv20_features_linearbottleneck2_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck10_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck10_batchnorm2_fwd"/>
+		<IR id="169" name="mobilenetv20_features_linearbottleneck10_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck5_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck5_conv1_weight"/>
+		<IR id="87" name="1412414127_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck7_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck7_conv2_weight"/>
+		<IR id="121" name="mobilenetv20_features_linearbottleneck7_batchnorm2_fwd/mean/Fused_Mul_1002010022_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck0_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck0_conv2_fwd"/>
+		<IR id="21" name="mobilenetv20_features_linearbottleneck0_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck5_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck5_conv2_weight"/>
+		<IR id="92" name="mobilenetv20_features_linearbottleneck5_batchnorm2_fwd/mean/Fused_Mul_99969998_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck11_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck11_batchnorm2_fwd"/>
+		<IR id="183" name="mobilenetv20_features_linearbottleneck11_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck10_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck10_conv1_weight"/>
+		<IR id="161" name="1413214135_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck11_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck11_batchnorm0_fwd"/>
+		<IR id="173" name="mobilenetv20_features_linearbottleneck11_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck14_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck14_conv2_weight"/>
+		<IR id="224" name="mobilenetv20_features_linearbottleneck14_batchnorm2_fwd/mean/Fused_Mul_1010410106_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck9_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck9_conv1_weight"/>
+		<IR id="146" name="1414414147_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck9_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck9_conv2_weight"/>
+		<IR id="151" name="mobilenetv20_features_linearbottleneck9_batchnorm2_fwd/mean/Fused_Mul_1004410046_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck0_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck0_conv1_fwd"/>
+		<IR id="16" name="mobilenetv20_features_linearbottleneck0_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck0_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck0_conv0_weight"/>
+		<IR id="10" name="mobilenetv20_features_linearbottleneck0_batchnorm0_fwd/mean/Fused_Mul_99289930_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck7_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck7_relu0_fwd"/>
+		<IR id="115" name="mobilenetv20_features_linearbottleneck7_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_batchnorm0_fwd" out_port_id="mobilenetv20_features_batchnorm0_fwd"/>
+		<IR id="8" name="mobilenetv20_features_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck13_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck13_relu1_fwd"/>
+		<IR id="209" name="mobilenetv20_features_linearbottleneck13_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck5_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck5_batchnorm2_fwd"/>
+		<IR id="95" name="mobilenetv20_features_linearbottleneck5_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck15_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck15_conv1_fwd"/>
+		<IR id="235" name="mobilenetv20_features_linearbottleneck15_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck15_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck15_batchnorm1_fwd"/>
+		<IR id="237" name="mobilenetv20_features_linearbottleneck15_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_conv0_fwd" out_port_id="mobilenetv20_features_conv0_fwd"/>
+		<IR id="6" name="mobilenetv20_features_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck14_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck14_conv1_weight"/>
+		<IR id="219" name="1414014143_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck7_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck7_relu1_fwd"/>
+		<IR id="120" name="mobilenetv20_features_linearbottleneck7_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck15_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck15_relu1_fwd"/>
+		<IR id="238" name="mobilenetv20_features_linearbottleneck15_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck1_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck1_conv0_fwd"/>
+		<IR id="25" name="mobilenetv20_features_linearbottleneck1_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck4_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck4_conv1_fwd"/>
+		<IR id="73" name="mobilenetv20_features_linearbottleneck4_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck1_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck1_relu1_fwd"/>
+		<IR id="33" name="mobilenetv20_features_linearbottleneck1_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck14_elemwise_add0" out_port_id="mobilenetv20_features_linearbottleneck14_elemwise_add0"/>
+		<IR id="228" name="mobilenetv20_features_linearbottleneck14_elemwise_add0" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck15_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck15_batchnorm0_fwd"/>
+		<IR id="232" name="mobilenetv20_features_linearbottleneck15_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck3_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck3_batchnorm0_fwd"/>
+		<IR id="56" name="mobilenetv20_features_linearbottleneck3_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck3_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck3_conv1_fwd"/>
+		<IR id="59" name="mobilenetv20_features_linearbottleneck3_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck7_elemwise_add0" out_port_id="mobilenetv20_features_linearbottleneck7_elemwise_add0"/>
+		<IR id="125" name="mobilenetv20_features_linearbottleneck7_elemwise_add0" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck12_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck12_relu1_fwd"/>
+		<IR id="194" name="mobilenetv20_features_linearbottleneck12_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck4_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck4_conv2_fwd"/>
+		<IR id="78" name="mobilenetv20_features_linearbottleneck4_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck12_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck12_batchnorm1_fwd"/>
+		<IR id="193" name="mobilenetv20_features_linearbottleneck12_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck8_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck8_conv0_weight"/>
+		<IR id="126" name="mobilenetv20_features_linearbottleneck8_batchnorm0_fwd/mean/Fused_Mul_1002410026_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck2_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck2_conv2_weight"/>
+		<IR id="48" name="mobilenetv20_features_linearbottleneck2_batchnorm2_fwd/mean/Fused_Mul_99609962_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck16_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck16_batchnorm1_fwd"/>
+		<IR id="252" name="mobilenetv20_features_linearbottleneck16_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck4_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck4_batchnorm2_fwd"/>
+		<IR id="80" name="mobilenetv20_features_linearbottleneck4_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck12_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck12_conv2_fwd"/>
+		<IR id="196" name="mobilenetv20_features_linearbottleneck12_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck5_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck5_relu1_fwd"/>
+		<IR id="91" name="mobilenetv20_features_linearbottleneck5_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck8_elemwise_add0" out_port_id="mobilenetv20_features_linearbottleneck8_elemwise_add0"/>
+		<IR id="140" name="mobilenetv20_features_linearbottleneck8_elemwise_add0" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck11_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck11_relu1_fwd"/>
+		<IR id="179" name="mobilenetv20_features_linearbottleneck11_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck9_elemwise_add0" out_port_id="mobilenetv20_features_linearbottleneck9_elemwise_add0"/>
+		<IR id="155" name="mobilenetv20_features_linearbottleneck9_elemwise_add0" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck15_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck15_batchnorm2_fwd"/>
+		<IR id="242" name="mobilenetv20_features_linearbottleneck15_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck10_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck10_conv0_fwd"/>
+		<IR id="157" name="mobilenetv20_features_linearbottleneck10_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck9_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck9_batchnorm0_fwd"/>
+		<IR id="144" name="mobilenetv20_features_linearbottleneck9_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck13_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck13_batchnorm0_fwd"/>
+		<IR id="203" name="mobilenetv20_features_linearbottleneck13_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck16_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck16_conv1_weight"/>
+		<IR id="249" name="1411614119_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_conv1_weight" out_port_id="mobilenetv20_features_conv1_weight"/>
+		<IR id="258" name="mobilenetv20_features_batchnorm1_fwd/mean/Fused_Mul_1013210134_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck9_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck9_conv1_fwd"/>
+		<IR id="147" name="mobilenetv20_features_linearbottleneck9_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck11_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck11_conv1_weight"/>
+		<IR id="175" name="1410414107_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck7_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck7_batchnorm1_fwd"/>
+		<IR id="119" name="mobilenetv20_features_linearbottleneck7_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck2_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck2_relu0_fwd"/>
+		<IR id="42" name="mobilenetv20_features_linearbottleneck2_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck11_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck11_conv2_fwd"/>
+		<IR id="181" name="mobilenetv20_features_linearbottleneck11_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck14_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck14_relu1_fwd"/>
+		<IR id="223" name="mobilenetv20_features_linearbottleneck14_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck0_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck0_conv1_weight"/>
+		<IR id="15" name="1410014103_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck8_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck8_conv1_weight"/>
+		<IR id="131" name="1410814111_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck4_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck4_conv0_fwd"/>
+		<IR id="68" name="mobilenetv20_features_linearbottleneck4_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck15_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck15_conv0_fwd"/>
+		<IR id="230" name="mobilenetv20_features_linearbottleneck15_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck8_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck8_batchnorm1_fwd"/>
+		<IR id="134" name="mobilenetv20_features_linearbottleneck8_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck2_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck2_conv2_fwd"/>
+		<IR id="49" name="mobilenetv20_features_linearbottleneck2_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck7_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck7_conv1_weight"/>
+		<IR id="116" name="1413614139_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck11_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck11_relu0_fwd"/>
+		<IR id="174" name="mobilenetv20_features_linearbottleneck11_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck13_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck13_conv2_fwd"/>
+		<IR id="211" name="mobilenetv20_features_linearbottleneck13_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck11_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck11_conv0_fwd"/>
+		<IR id="171" name="mobilenetv20_features_linearbottleneck11_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck1_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck1_conv2_weight"/>
+		<IR id="34" name="mobilenetv20_features_linearbottleneck1_batchnorm2_fwd/mean/Fused_Mul_99489950_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck7_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck7_conv0_weight"/>
+		<IR id="111" name="mobilenetv20_features_linearbottleneck7_batchnorm0_fwd/mean/Fused_Mul_1001210014_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_output_pred_weight" out_port_id="mobilenetv20_output_pred_weight"/>
+		<IR id="265" name="onnx_initializer_node_mobilenetv20_output_pred_weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck16_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck16_relu1_fwd"/>
+		<IR id="253" name="mobilenetv20_features_linearbottleneck16_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck11_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck11_batchnorm1_fwd"/>
+		<IR id="178" name="mobilenetv20_features_linearbottleneck11_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck6_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck6_conv2_weight"/>
+		<IR id="107" name="mobilenetv20_features_linearbottleneck6_batchnorm2_fwd/mean/Fused_Mul_1000810010_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck11_conv2_weight" out_port_id="mobilenetv20_features_linearbottleneck11_conv2_weight"/>
+		<IR id="180" name="mobilenetv20_features_linearbottleneck11_batchnorm2_fwd/mean/Fused_Mul_1006810070_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck8_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck8_relu0_fwd"/>
+		<IR id="130" name="mobilenetv20_features_linearbottleneck8_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck0_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck0_batchnorm0_fwd"/>
+		<IR id="13" name="mobilenetv20_features_linearbottleneck0_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_output_flatten0_reshape0" out_port_id="0"/>
+		<IR id="268" name="mobilenetv20_output_flatten0_reshape0" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck9_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck9_batchnorm2_fwd"/>
+		<IR id="154" name="mobilenetv20_features_linearbottleneck9_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck5_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck5_conv1_fwd"/>
+		<IR id="88" name="mobilenetv20_features_linearbottleneck5_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_batchnorm1_fwd" out_port_id="mobilenetv20_features_batchnorm1_fwd"/>
+		<IR id="261" name="mobilenetv20_features_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck12_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck12_batchnorm2_fwd"/>
+		<IR id="198" name="mobilenetv20_features_linearbottleneck12_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck16_batchnorm0_fwd" out_port_id="mobilenetv20_features_linearbottleneck16_batchnorm0_fwd"/>
+		<IR id="247" name="mobilenetv20_features_linearbottleneck16_batchnorm0_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_conv0_weight" out_port_id="mobilenetv20_features_conv0_weight"/>
+		<IR id="5" name="data/reverse_input_channels/Concat13589_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck6_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck6_conv0_weight"/>
+		<IR id="97" name="mobilenetv20_features_linearbottleneck6_batchnorm0_fwd/mean/Fused_Mul_1000010002_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck1_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck1_batchnorm1_fwd"/>
+		<IR id="32" name="mobilenetv20_features_linearbottleneck1_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck15_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck15_relu0_fwd"/>
+		<IR id="233" name="mobilenetv20_features_linearbottleneck15_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck9_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck9_conv2_fwd"/>
+		<IR id="152" name="mobilenetv20_features_linearbottleneck9_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck13_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck13_batchnorm2_fwd"/>
+		<IR id="213" name="mobilenetv20_features_linearbottleneck13_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck3_relu1_fwd" out_port_id="mobilenetv20_features_linearbottleneck3_relu1_fwd"/>
+		<IR id="62" name="mobilenetv20_features_linearbottleneck3_relu1_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck4_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck4_batchnorm1_fwd"/>
+		<IR id="75" name="mobilenetv20_features_linearbottleneck4_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck15_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck15_conv1_weight"/>
+		<IR id="234" name="1414814151_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck6_conv1_fwd" out_port_id="mobilenetv20_features_linearbottleneck6_conv1_fwd"/>
+		<IR id="103" name="mobilenetv20_features_linearbottleneck6_conv1_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck7_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck7_conv2_fwd"/>
+		<IR id="122" name="mobilenetv20_features_linearbottleneck7_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck9_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck9_relu0_fwd"/>
+		<IR id="145" name="mobilenetv20_features_linearbottleneck9_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck1_batchnorm2_fwd" out_port_id="mobilenetv20_features_linearbottleneck1_batchnorm2_fwd"/>
+		<IR id="37" name="mobilenetv20_features_linearbottleneck1_batchnorm2_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck3_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck3_conv1_weight"/>
+		<IR id="58" name="1409614099_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck8_conv2_fwd" out_port_id="mobilenetv20_features_linearbottleneck8_conv2_fwd"/>
+		<IR id="137" name="mobilenetv20_features_linearbottleneck8_conv2_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck4_relu0_fwd" out_port_id="mobilenetv20_features_linearbottleneck4_relu0_fwd"/>
+		<IR id="71" name="mobilenetv20_features_linearbottleneck4_relu0_fwd" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck9_conv0_fwd" out_port_id="mobilenetv20_features_linearbottleneck9_conv0_fwd"/>
+		<IR id="142" name="mobilenetv20_features_linearbottleneck9_conv0_fwd" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck9_batchnorm1_fwd" out_port_id="mobilenetv20_features_linearbottleneck9_batchnorm1_fwd"/>
+		<IR id="149" name="mobilenetv20_features_linearbottleneck9_batchnorm1_fwd/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck2_conv1_weight" out_port_id="mobilenetv20_features_linearbottleneck2_conv1_weight"/>
+		<IR id="43" name="1408814091_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck14_conv0_weight" out_port_id="mobilenetv20_features_linearbottleneck14_conv0_weight"/>
+		<IR id="214" name="mobilenetv20_features_linearbottleneck14_batchnorm0_fwd/mean/Fused_Mul_1009610098_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv20_features_linearbottleneck5_elemwise_add0" out_port_id="mobilenetv20_features_linearbottleneck5_elemwise_add0"/>
+		<IR id="96" name="mobilenetv20_features_linearbottleneck5_elemwise_add0" out_port_id="2"/>
+	</map>
+</mapping>
