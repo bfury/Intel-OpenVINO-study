@@ -1,6 +1,8 @@
 # Intel-OpenVINO-study
 For OpenVINO Study
 
+**有问题或者建议可以发issue一起讨论学习**
+
 需要安装OpenVINO套件 我在实验过程中使用的是2021.4版本
 
 部分python脚本对应老版本openVINO（2020.2）
