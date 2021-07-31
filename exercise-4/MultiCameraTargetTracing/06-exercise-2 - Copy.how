@@ -1,0 +1,35 @@
+##################################################################
+#
+#       CSDN200, Lesson 6, lab 2
+#
+##################################################################
+
+Target: Video Analytics
+
+	Operate the multi-camera python demo.
+
+1) setup everything..
+
+cd ~/CSDN200/06/exercise-2/
+source /opt/intel/openvino/bin/setupvars.sh
+
+
+2) Get the demo requirements
+
+cd /opt/intel/openvino/inference_engine/demos/python_demos/multi_camera_multi_person_tracking/
+
+pip3 install -r requirements.txt
+
+
+3) Run the demo
+
+cd ~/CSDN200/06/exercise-2/
+
+python3 multi_camera_multi_person_tracking.py \
+     --m_detector models/person-detection-retail-0013.xml \
+     --m_reid models/person-reidentification-retail-0300.xml \
+     --config config.py -i Videos/video1.avi Videos/video2.avi Videos/video3.avi \
+     --no_show
+
+
+
