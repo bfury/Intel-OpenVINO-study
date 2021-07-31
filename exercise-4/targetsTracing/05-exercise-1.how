@@ -1,0 +1,47 @@
+##################################################################
+#
+#       CSDN200, Lesson 5, lab 1
+#
+##################################################################
+
+Target: Add performance (time) counters manually
+
+
+1) setup everything..
+#go to the directory
+cd ~/CSDN200/05/exercise-1/
+export lab_dir=~/CSDN200/05/exercise-1/
+
+#Initialize OpenVINO
+
+
+2) Take a look at our samples..
+
+ 	#Task:A) Object Detection.. play video
+	
+
+
+	B) Object Detection.. save video
+	The sample does not play the video but rather save it to output.avi
+
+
+
+	C) Object Detection.. save video and print out the progress and detection results..
+
+
+
+
+3)  Edit the file add-perf-object-detection.py
+ 	
+	Add time measurements to measure the inference time..
+
+
+Tips
+--------
+	#Use the time function.
+	this_time = time.time()
+
+Take a look and run 
+python3 4.object-detection-performance.py
+
+
