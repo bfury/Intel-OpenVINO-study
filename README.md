@@ -1,6 +1,12 @@
 # Intel-OpenVINO-study
 For OpenVINO Study
 
+需要安装OpenVINO套件 我在实验过程中使用的是2021.4版本
+
+部分python脚本对应老版本openVINO（2020.2）
+
+这部分的脚本对应的新版本脚本为xx_new.py
+
 注意：直接在Pycharm的Run configuration中无法运行
 
 因为openvino包含的针对Intel优化的opencv没有在python的site-package中
