@@ -38,15 +38,21 @@ eg:python3 ./exercise-1/face-detection01.py
 # 部分功能预览：
 ![faces.jpeg](https://i.loli.net/2021/08/02/kxpPvMaXdJgtfRr.jpg)
 ![out.png](https://i.loli.net/2021/08/02/senLvlEMoP97HTO.png)
+
+
 Face\Age\Gender
 
 
 ![image.png](https://i.loli.net/2021/08/02/xA8qEOarhY7wyUk.png)
 ![image.png](https://i.loli.net/2021/08/02/fx7J6jGw9sqoamh.png)
+
+
 Classification
 
 
 ![image.png](https://i.loli.net/2021/08/02/6R1U83PokciGpjr.png)
+
+
 TargetTracing(mp4)
 
 
