@@ -35,3 +35,18 @@ eg:python3 ./exercise-1/face-detection01.py
 
 如果pull过慢，可以在本地完成IR模型的生成，只下载原始模型(caffe、onnx)，视频和图片也可以使用自己本地的资源代替～
 
+# 部分功能预览：
+![faces.jpeg](https://i.loli.net/2021/08/02/kxpPvMaXdJgtfRr.jpg)
+![out.png](https://i.loli.net/2021/08/02/senLvlEMoP97HTO.png)
+Face\Age\Gender
+
+
+![image.png](https://i.loli.net/2021/08/02/xA8qEOarhY7wyUk.png)
+![image.png](https://i.loli.net/2021/08/02/fx7J6jGw9sqoamh.png)
+Classification
+
+
+![image.png](https://i.loli.net/2021/08/02/6R1U83PokciGpjr.png)
+TargetTracing(mp4)
+
+
